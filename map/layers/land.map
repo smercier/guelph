@@ -1,0 +1,19 @@
+LAYER
+    NAME 'land'
+    TYPE POLYGON
+    METADATA 
+        "wms_include_items" "all" 
+    END
+    TEMPLATE 'blank.html'
+    GROUP 'default'
+    STATUS ON
+    PROJECTION
+    	'init=epsg:4326'
+    END
+    DATA '../pdata/natural_earth/50m_physical/ne_50m_land'
+    CLASS
+    	STYLE
+    		COLOR '#FFFFFF'
+    	END
+	END
+END

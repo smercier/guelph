@@ -1,0 +1,13 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="GuelphAEDInventory">
+        <SrcDataSource>/home/smercier/ownCloud/projets/modules_training/data/GuelphData/GuelphAEDInventory.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
+        <Field name="site_name" src="SiteName"/>
+        <Field name="site_phone" src="SitePhone"/>
+        <Field name="site_type" src="SiteType"/>
+        <Field name="address" src="address"/>
+        <Field name="site_aed_placement" src="AEDPlacementLocation"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

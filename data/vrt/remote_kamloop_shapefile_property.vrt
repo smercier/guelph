@@ -1,0 +1,5 @@
+<OGRVRTDataSource>
+      <OGRVRTLayer name="property">
+<SrcDataSource>/vsizip/vsicurl/http://www.kamloops.ca/downloads/maps/cadastralSHP.zip/Property.shp</SrcDataSource>
+      </OGRVRTLayer>
+</OGRVRTDataSource>
