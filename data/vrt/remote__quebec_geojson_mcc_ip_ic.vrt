@@ -1,5 +1,0 @@
-<OGRVRTDataSource>
-   <OGRVRTLayer name="OGRGeoJSON">
-   <SrcDataSource>http://tiles-dev.mapgears.com/mcc_ip_ic.geojson</SrcDataSource>
-   </OGRVRTLayer>
-</OGRVRTDataSource>

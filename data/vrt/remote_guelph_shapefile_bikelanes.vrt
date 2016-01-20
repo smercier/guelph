@@ -1,5 +1,0 @@
-<OGRVRTDataSource>
-      <OGRVRTLayer name="ExistingBikeLanes_UserMap_OpenData">
-<SrcDataSource>/vsizip/vsicurl/http://openguelph.wpengine.com/wp-content/uploads/2014/02/ExistingBikeLanes_UserMap.zip/ExistingBikeLanes_UserMap_OpenData.shp</SrcDataSource>
-      </OGRVRTLayer>
-</OGRVRTDataSource>
