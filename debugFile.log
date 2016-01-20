@@ -21896,3 +21896,23 @@ LINE 1: select "name","pop2011",encode(ST_AsBinary(ST_Force2D("wkb_g...
 [Wed Jan 20 18:52:42 2016].525855 msSaveImage(stdout) total time: 0.040s
 [Wed Jan 20 18:52:42 2016].526301 mapserv request processing time (msLoadMap not incl.): 0.063s
 [Wed Jan 20 18:52:42 2016].526308 msFreeMap(): freeing map at 0x9383e0.
+[Wed Jan 20 18:57:29 2016].302710 CGI Request 1 on process 28832
+[Wed Jan 20 18:57:29 2016].304924 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jan 20 18:57:29 2016].304947 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jan 20 18:57:29 2016].324458 msDrawMap(): Layer 0 (land), 0.020s
+[Wed Jan 20 18:57:29 2016].324471 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jan 20 18:57:29 2016].324475 msDrawMap(): Drawing Label Cache, 0.000s
+[Wed Jan 20 18:57:29 2016].324478 msDrawMap() total time: 0.022s
+[Wed Jan 20 18:57:29 2016].363081 msSaveImage(stdout) total time: 0.039s
+[Wed Jan 20 18:57:29 2016].363625 mapserv request processing time (msLoadMap not incl.): 0.061s
+[Wed Jan 20 18:57:29 2016].363632 msFreeMap(): freeing map at 0xd265f0.
+[Wed Jan 20 18:57:29 2016].675517 CGI Request 1 on process 28833
+[Wed Jan 20 18:57:29 2016].677706 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jan 20 18:57:29 2016].677727 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jan 20 18:57:29 2016].697236 msDrawMap(): Layer 0 (land), 0.019s
+[Wed Jan 20 18:57:29 2016].697248 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jan 20 18:57:29 2016].697253 msDrawMap(): Drawing Label Cache, 0.000s
+[Wed Jan 20 18:57:29 2016].697256 msDrawMap() total time: 0.022s
+[Wed Jan 20 18:57:29 2016].736461 msSaveImage(stdout) total time: 0.039s
+[Wed Jan 20 18:57:29 2016].737015 mapserv request processing time (msLoadMap not incl.): 0.061s
+[Wed Jan 20 18:57:29 2016].737022 msFreeMap(): freeing map at 0x11e93e0.
